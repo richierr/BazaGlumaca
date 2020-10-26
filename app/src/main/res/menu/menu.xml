@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/delete_actor"
+        android:title="@string/delete_actor" />
+    <item
+        android:id="@+id/edit_actor"
+        android:title="@string/edit_actor" />
+    <item
+        android:id="@+id/add_actor"
+        android:title="@string/add_actor" />
+</menu>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BazaGlumaca</string>
+    <string name="edit_actor">Edit actor</string>
+    <string name="delete_actor">Delete actor</string>
+    <string name="add_actor">Add actor</string>
+</resources>
