@@ -14,5 +14,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+<androidx.drawerlayout.widget.DrawerLayout
+    android:layout_height="0dp"
+    android:layout_width="match_parent" />
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/my_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/my_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/my_listview_dr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </com.google.android.material.navigation.NavigationView>
+
+
 
 </LinearLayout>

@@ -29,7 +29,8 @@ android {
 }
 
 dependencies {
-
+    debugImplementation 'com.melegy.redscreenofdeath:red-screen-of-death:0.1.1'
+    releaseImplementation 'com.melegy.redscreenofdeath:red-screen-of-death-no-op:0.1.1'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
